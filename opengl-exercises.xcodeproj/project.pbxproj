@@ -7,49 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D0577B522887227006DBA73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0577B422887227006DBA73 /* AppDelegate.m */; };
-		4D0577B822887227006DBA73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0577B722887227006DBA73 /* ViewController.m */; };
-		4D0577BA22887228006DBA73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0577B922887228006DBA73 /* Assets.xcassets */; };
-		4D0577BD22887228006DBA73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0577BB22887228006DBA73 /* Main.storyboard */; };
-		4D0577C022887228006DBA73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0577BF22887228006DBA73 /* main.m */; };
-		4D0577CB22887228006DBA73 /* opengl_exercisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0577CA22887228006DBA73 /* opengl_exercisesTests.m */; };
-		4D0577D622887228006DBA73 /* opengl_exercisesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0577D522887228006DBA73 /* opengl_exercisesUITests.m */; };
+		4D0577C022887228006DBA73 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0577BF22887228006DBA73 /* main.cpp */; };
+		4D0577E52288725E006DBA73 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0577E42288725E006DBA73 /* OpenGL.framework */; };
+		4D0577E922887272006DBA73 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0577E822887272006DBA73 /* libGLEW.2.1.0.dylib */; };
+		4D0577EB22887282006DBA73 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0577EA22887282006DBA73 /* libglfw.3.3.dylib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4D0577C722887228006DBA73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D0577A822887227006DBA73 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D0577AF22887227006DBA73;
-			remoteInfo = "opengl-exercises";
-		};
-		4D0577D222887228006DBA73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D0577A822887227006DBA73 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D0577AF22887227006DBA73;
-			remoteInfo = "opengl-exercises";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4D0577B022887227006DBA73 /* opengl-exercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "opengl-exercises.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D0577B322887227006DBA73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4D0577B422887227006DBA73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4D0577B622887227006DBA73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4D0577B722887227006DBA73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4D0577B922887228006DBA73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4D0577BC22887228006DBA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D0577BE22887228006DBA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D0577BF22887228006DBA73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D0577BF22887228006DBA73 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4D0577C122887228006DBA73 /* opengl_exercises.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = opengl_exercises.entitlements; sourceTree = "<group>"; };
-		4D0577C622887228006DBA73 /* opengl-exercisesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "opengl-exercisesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D0577CA22887228006DBA73 /* opengl_exercisesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opengl_exercisesTests.m; sourceTree = "<group>"; };
-		4D0577CC22887228006DBA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D0577D122887228006DBA73 /* opengl-exercisesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "opengl-exercisesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D0577D522887228006DBA73 /* opengl_exercisesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opengl_exercisesUITests.m; sourceTree = "<group>"; };
-		4D0577D722887228006DBA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0577E42288725E006DBA73 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		4D0577E622887267006DBA73 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../../../../usr/local/Cellar/glew/2.1.0/lib; sourceTree = "<group>"; };
+		4D0577E822887272006DBA73 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		4D0577EA22887282006DBA73 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../usr/local/Cellar/glfw/3.3/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,20 +29,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D0577C322887228006DBA73 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D0577CE22887228006DBA73 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4D0577EB22887282006DBA73 /* libglfw.3.3.dylib in Frameworks */,
+				4D0577E922887272006DBA73 /* libGLEW.2.1.0.dylib in Frameworks */,
+				4D0577E52288725E006DBA73 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +42,8 @@
 			isa = PBXGroup;
 			children = (
 				4D0577B222887227006DBA73 /* opengl-exercises */,
-				4D0577C922887228006DBA73 /* opengl-exercisesTests */,
-				4D0577D422887228006DBA73 /* opengl-exercisesUITests */,
 				4D0577B122887227006DBA73 /* Products */,
+				4D0577E32288725E006DBA73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				4D0577B022887227006DBA73 /* opengl-exercises.app */,
-				4D0577C622887228006DBA73 /* opengl-exercisesTests.xctest */,
-				4D0577D122887228006DBA73 /* opengl-exercisesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,35 +58,22 @@
 		4D0577B222887227006DBA73 /* opengl-exercises */ = {
 			isa = PBXGroup;
 			children = (
-				4D0577B322887227006DBA73 /* AppDelegate.h */,
-				4D0577B422887227006DBA73 /* AppDelegate.m */,
-				4D0577B622887227006DBA73 /* ViewController.h */,
-				4D0577B722887227006DBA73 /* ViewController.m */,
-				4D0577B922887228006DBA73 /* Assets.xcassets */,
-				4D0577BB22887228006DBA73 /* Main.storyboard */,
 				4D0577BE22887228006DBA73 /* Info.plist */,
-				4D0577BF22887228006DBA73 /* main.m */,
+				4D0577BF22887228006DBA73 /* main.cpp */,
 				4D0577C122887228006DBA73 /* opengl_exercises.entitlements */,
 			);
 			path = "opengl-exercises";
 			sourceTree = "<group>";
 		};
-		4D0577C922887228006DBA73 /* opengl-exercisesTests */ = {
+		4D0577E32288725E006DBA73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D0577CA22887228006DBA73 /* opengl_exercisesTests.m */,
-				4D0577CC22887228006DBA73 /* Info.plist */,
+				4D0577EA22887282006DBA73 /* libglfw.3.3.dylib */,
+				4D0577E822887272006DBA73 /* libGLEW.2.1.0.dylib */,
+				4D0577E622887267006DBA73 /* lib */,
+				4D0577E42288725E006DBA73 /* OpenGL.framework */,
 			);
-			path = "opengl-exercisesTests";
-			sourceTree = "<group>";
-		};
-		4D0577D422887228006DBA73 /* opengl-exercisesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4D0577D522887228006DBA73 /* opengl_exercisesUITests.m */,
-				4D0577D722887228006DBA73 /* Info.plist */,
-			);
-			path = "opengl-exercisesUITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,42 +96,6 @@
 			productReference = 4D0577B022887227006DBA73 /* opengl-exercises.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4D0577C522887228006DBA73 /* opengl-exercisesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D0577DD22887228006DBA73 /* Build configuration list for PBXNativeTarget "opengl-exercisesTests" */;
-			buildPhases = (
-				4D0577C222887228006DBA73 /* Sources */,
-				4D0577C322887228006DBA73 /* Frameworks */,
-				4D0577C422887228006DBA73 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4D0577C822887228006DBA73 /* PBXTargetDependency */,
-			);
-			name = "opengl-exercisesTests";
-			productName = "opengl-exercisesTests";
-			productReference = 4D0577C622887228006DBA73 /* opengl-exercisesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4D0577D022887228006DBA73 /* opengl-exercisesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D0577E022887228006DBA73 /* Build configuration list for PBXNativeTarget "opengl-exercisesUITests" */;
-			buildPhases = (
-				4D0577CD22887228006DBA73 /* Sources */,
-				4D0577CE22887228006DBA73 /* Frameworks */,
-				4D0577CF22887228006DBA73 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4D0577D322887228006DBA73 /* PBXTargetDependency */,
-			);
-			name = "opengl-exercisesUITests";
-			productName = "opengl-exercisesUITests";
-			productReference = 4D0577D122887228006DBA73 /* opengl-exercisesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,14 +107,6 @@
 				TargetAttributes = {
 					4D0577AF22887227006DBA73 = {
 						CreatedOnToolsVersion = 10.2.1;
-					};
-					4D0577C522887228006DBA73 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 4D0577AF22887227006DBA73;
-					};
-					4D0577D022887228006DBA73 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 4D0577AF22887227006DBA73;
 					};
 				};
 			};
@@ -223,30 +124,12 @@
 			projectRoot = "";
 			targets = (
 				4D0577AF22887227006DBA73 /* opengl-exercises */,
-				4D0577C522887228006DBA73 /* opengl-exercisesTests */,
-				4D0577D022887228006DBA73 /* opengl-exercisesUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4D0577AE22887227006DBA73 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D0577BA22887228006DBA73 /* Assets.xcassets in Resources */,
-				4D0577BD22887228006DBA73 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D0577C422887228006DBA73 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D0577CF22887228006DBA73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,53 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0577B822887227006DBA73 /* ViewController.m in Sources */,
-				4D0577C022887228006DBA73 /* main.m in Sources */,
-				4D0577B522887227006DBA73 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D0577C222887228006DBA73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D0577CB22887228006DBA73 /* opengl_exercisesTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D0577CD22887228006DBA73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D0577D622887228006DBA73 /* opengl_exercisesUITests.m in Sources */,
+				4D0577C022887228006DBA73 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4D0577C822887228006DBA73 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4D0577AF22887227006DBA73 /* opengl-exercises */;
-			targetProxy = 4D0577C722887228006DBA73 /* PBXContainerItemProxy */;
-		};
-		4D0577D322887228006DBA73 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4D0577AF22887227006DBA73 /* opengl-exercises */;
-			targetProxy = 4D0577D222887228006DBA73 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4D0577BB22887228006DBA73 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D0577BC22887228006DBA73 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4D0577D822887228006DBA73 /* Debug */ = {
@@ -427,10 +268,20 @@
 				CODE_SIGN_ENTITLEMENTS = "opengl-exercises/opengl_exercises.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/**",
+					"/usr/local/Cellar/glew/2.1.0/include/**",
+					"/usr/local/Cellar/glfw/3.3/include/**",
+				);
 				INFOPLIST_FILE = "opengl-exercises/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.1.0/lib,
+					/usr/local/Cellar/glfw/3.3/lib,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "murateksi.opengl-exercises";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,83 +295,23 @@
 				CODE_SIGN_ENTITLEMENTS = "opengl-exercises/opengl_exercises.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/**",
+					"/usr/local/Cellar/glew/2.1.0/include/**",
+					"/usr/local/Cellar/glfw/3.3/include/**",
+				);
 				INFOPLIST_FILE = "opengl-exercises/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.1.0/lib,
+					/usr/local/Cellar/glfw/3.3/lib,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "murateksi.opengl-exercises";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		4D0577DE22887228006DBA73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "opengl-exercisesTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "murateksi.opengl-exercisesTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/opengl-exercises.app/Contents/MacOS/opengl-exercises";
-			};
-			name = Debug;
-		};
-		4D0577DF22887228006DBA73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "opengl-exercisesTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "murateksi.opengl-exercisesTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/opengl-exercises.app/Contents/MacOS/opengl-exercises";
-			};
-			name = Release;
-		};
-		4D0577E122887228006DBA73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "opengl-exercisesUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "murateksi.opengl-exercisesUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "opengl-exercises";
-			};
-			name = Debug;
-		};
-		4D0577E222887228006DBA73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "opengl-exercisesUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "murateksi.opengl-exercisesUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "opengl-exercises";
 			};
 			name = Release;
 		};
@@ -541,24 +332,6 @@
 			buildConfigurations = (
 				4D0577DB22887228006DBA73 /* Debug */,
 				4D0577DC22887228006DBA73 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4D0577DD22887228006DBA73 /* Build configuration list for PBXNativeTarget "opengl-exercisesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D0577DE22887228006DBA73 /* Debug */,
-				4D0577DF22887228006DBA73 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4D0577E022887228006DBA73 /* Build configuration list for PBXNativeTarget "opengl-exercisesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D0577E122887228006DBA73 /* Debug */,
-				4D0577E222887228006DBA73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
